@@ -62,6 +62,17 @@ namespace Linq_Assignment_2
 
             //Console.WriteLine(result);
             #endregion
+
+            #region Question 6
+            ////6. Group all products by Category and print each group with its product count.
+            //var result = Source.ProductList
+            //.GroupBy(p => p.Category);
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"{group.Key}: {group.Count()} products");
+            //}
+            #endregion
         }
     }
 }
