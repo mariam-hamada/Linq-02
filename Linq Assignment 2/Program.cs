@@ -1,4 +1,5 @@
 ﻿using LINQ.DataSources;
+using LINQ.Models;
 
 namespace Linq_Assignment_2
 {
@@ -27,6 +28,17 @@ namespace Linq_Assignment_2
             //foreach (var p in result)
             //    Console.WriteLine(p.ProductName);
 
+
+            #endregion
+
+            #region Question 3
+            //3. Take products from the list as long as Their UnitPrice is less than $25(list is ordered by price).
+            //var result = Source.ProductList
+            //    .OrderBy(p => p.UnitPrice)
+            //    .TakeWhile(p => p.UnitPrice < 25);
+
+            //foreach (var p in result)
+            //    Console.WriteLine($"{p.ProductName} - {p.UnitPrice}");
 
             #endregion
         }
