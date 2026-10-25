@@ -126,6 +126,14 @@ namespace Linq_Assignment_2
             //        $"Total Orders: {item.TotalOrderValue}");
             //}
             #endregion
+
+            #region Question 10
+            //10. Calculate the total number of units in stock across all products
+            //int result = Source.ProductList
+            //.Sum(p => p.UnitsInStock);
+
+            //Console.WriteLine(result);
+            #endregion
         }
     }
 }
