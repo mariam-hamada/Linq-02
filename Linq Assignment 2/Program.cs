@@ -192,6 +192,14 @@ namespace Linq_Assignment_2
             //    Console.WriteLine($"{product.ProductID} - {product.ProductName}");
             //}
             #endregion
+
+            #region Question 16
+            //16. Get the first product whose price is greater than $50.
+            //var result = Source.ProductList
+            //.First(p => p.UnitPrice > 50);
+
+            //Console.WriteLine($"{result.ProductName} - {result.UnitPrice}");
+            #endregion
         }
     }
 }
