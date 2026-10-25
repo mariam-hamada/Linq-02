@@ -200,6 +200,26 @@ namespace Linq_Assignment_2
 
             //Console.WriteLine($"{result.ProductName} - {result.UnitPrice}");
             #endregion
+
+            #region Question 17
+            //17. Try to get the first product with a price > $500. it returns null instead of throwing.
+            //var result = Source.ProductList
+            //.FirstOrDefault(p => p.UnitPrice > 500);
+
+            //if (result != null)
+            //    Console.WriteLine(result.ProductName);
+            //else
+            //    Console.WriteLine("No product found");
+            #endregion
+
+            #region Question 18
+            //18. Generate a multiplication table row for 7
+            //var result = Enumerable.Range(1, 10)
+            //.Select(n => $"7 x {n} = {7 * n}");
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+            #endregion
         }
     }
 }
