@@ -143,6 +143,16 @@ namespace Linq_Assignment_2
             //Console.WriteLine($"Cheapest: {cheapest}");
             //Console.WriteLine($"Most Expensive: {mostExpensive}");
             #endregion
+
+            #region Question 12
+            //12. Get a distinct list of all product categories
+            //var result = Source.ProductList
+            //.Select(p => p.Category)
+            //.Distinct();
+
+            //foreach (var category in result)
+            //    Console.WriteLine(category);
+            #endregion
         }
     }
 }
