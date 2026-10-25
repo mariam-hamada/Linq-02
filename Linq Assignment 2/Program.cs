@@ -92,6 +92,17 @@ namespace Linq_Assignment_2
             //        Console.WriteLine(name);
             //}
             #endregion
+
+            #region Question 8
+            //8. Find all categories that have MORE THAN 3 products
+            //var result = Source.ProductList
+            //.GroupBy(p => p.Category)
+            //.Where(g => g.Count() > 3)
+            //.Select(g => g.Key);
+
+            //foreach (var category in result)
+            //    Console.WriteLine(category);
+            #endregion
         }
     }
 }
