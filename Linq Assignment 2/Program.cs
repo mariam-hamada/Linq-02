@@ -1,6 +1,7 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
 using System.Diagnostics.Metrics;
+using System.Drawing;
 
 namespace Linq_Assignment_2
 {
@@ -179,6 +180,17 @@ namespace Linq_Assignment_2
             //foreach (var country in result)
             //    Console.WriteLine(country);
 
+            #endregion
+
+            #region Question 15
+            //15. Build a Dictionary<int, Product> keyed by ProductID. Then retrieve and print the product with ID = 18.
+            //Dictionary<int, Product> productsDictionary =
+            //Source.ProductList.ToDictionary(p => p.ProductID);
+
+            //if (productsDictionary.TryGetValue(18, out Product product))
+            //{
+            //    Console.WriteLine($"{product.ProductID} - {product.ProductName}");
+            //}
             #endregion
         }
     }
