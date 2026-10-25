@@ -220,6 +220,42 @@ namespace Linq_Assignment_2
             //foreach (var item in result)
             //    Console.WriteLine(item);
             #endregion
+
+            #region Question 19
+            //19. Generate even numbers between 1 and 30.
+            //var result = Enumerable.Range(1, 30)
+            //.Where(n => n % 2 == 0);
+
+            //foreach (var n in result)
+            //    Console.WriteLine(n);
+            #endregion
+
+            #region Question 20
+            //20. Concatenate the first 3 product names with the first 3 customer company names into a single sequence.
+            //var result = Source.ProductList
+            //.Take(3)
+            //.Select(p => p.ProductName)
+            //.Concat(
+            //    Source.CustomerList
+            //        .Take(3)
+            //        .Select(c => c.CustomerName)
+            //);
+
+            //foreach (var name in result)
+            //    Console.WriteLine(name);
+            #endregion
+
+            #region Question 21
+            //21. Pair each product with a customer (by position) and produce a string "ProductName sold to CompanyName".
+            //var result = Source.ProductList
+            //.Zip(
+            //    Source.CustomerList,
+            //    (p, c) => $"{p.ProductName} sold to {c.CustomerName}"
+            //);
+
+            //foreach (var item in result)
+            //    Console.WriteLine(item);
+            #endregion
         }
     }
 }
