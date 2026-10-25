@@ -134,6 +134,15 @@ namespace Linq_Assignment_2
 
             //Console.WriteLine(result);
             #endregion
+
+            #region Question 11
+            //11. Find the CHEAPEST and MOST EXPENSIVE product prices
+            //var cheapest = Source.ProductList.Min(p => p.UnitPrice);
+            //var mostExpensive = Source.ProductList.Max(p => p.UnitPrice);
+
+            //Console.WriteLine($"Cheapest: {cheapest}");
+            //Console.WriteLine($"Most Expensive: {mostExpensive}");
+            #endregion
         }
     }
 }
